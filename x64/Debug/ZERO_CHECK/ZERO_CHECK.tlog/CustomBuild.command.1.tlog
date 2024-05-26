@@ -1,0 +1,10 @@
+^C:\USERS\ADMIN\DOCUMENTS\CMAKE_BASE\HELLO\CMAKEFILES\41A4D589E7416AC6F6BDA8D32127C202\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Admin/Documents/CMake_Base/hello -BC:/Users/Admin/Documents/CMake_Base/hello --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Admin/Documents/CMake_Base/hello/hello.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
