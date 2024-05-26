@@ -1,0 +1,3 @@
+C:/Users/Admin/Documents/CMake_Base/hello/CMakeFiles/hello.dir
+C:/Users/Admin/Documents/CMake_Base/hello/CMakeFiles/ALL_BUILD.dir
+C:/Users/Admin/Documents/CMake_Base/hello/CMakeFiles/ZERO_CHECK.dir
